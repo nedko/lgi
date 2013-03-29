@@ -622,7 +622,6 @@ luaopen_lgi_corelgilua51 (lua_State* L)
 
   /* Early GLib initializations. Make sure that following fundamental
      G_TYPEs are already initialized. */
-  g_type_init ();
   volatile GType unused;
   unused = G_TYPE_DATE;
   unused = G_TYPE_REGEX;
